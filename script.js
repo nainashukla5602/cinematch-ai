@@ -3,45 +3,45 @@ function recommendMovies(){
 const movies = {
 
 Action:[
-{name:"Avengers",img:"images/avengers.jpg",rating:"8.4"},
-{name:"Batman",img:"images/batman.jpg",rating:"8.2"},
-{name:"John Wick",img:"images/johnwick.jpg",rating:"7.9"}
+{name:"Avengers",img:"avengers.jpg",rating:"8.4"},
+{name:"Batman",img:"batman.jpg",rating:"8.2"},
+{name:"John Wick",img:"johnwick.jpg",rating:"7.9"}
 ],
 
 Comedy:[
-{name:"3 Idiots",img:"images/3idiots.jpg",rating:"8.4"},
-{name:"Hangover",img:"images/hangover.jpg",rating:"7.7"},
-{name:"Mr Bean",img:"images/mrbean.jpg",rating:"7.5"}
+{name:"3 Idiots",img:"3idiots.jpg",rating:"8.4"},
+{name:"Hangover",img:"hangover.jpg",rating:"7.7"},
+{name:"Mr Bean",img:"mrbean.jpg",rating:"7.5"}
 ],
 
 Romance:[
-{name:"Titanic",img:"images/titanic.jpg",rating:"7.9"},
-{name:"Notebook",img:"images/notebook.jpg",rating:"7.8"},
-{name:"DDLJ",img:"images/ddlj.jpg",rating:"8.0"}
+{name:"Titanic",img:"titanic.jpg",rating:"7.9"},
+{name:"Notebook",img:"notebook.jpg",rating:"7.8"},
+{name:"DDLJ",img:"ddlj.jpg",rating:"8.0"}
 ],
 
 "Sci-Fi":[
-{name:"Interstellar",img:"images/interstellar.jpg",rating:"8.7"},
-{name:"Avatar",img:"images/avatar.jpg",rating:"7.9"},
-{name:"Inception",img:"images/inception.jpg",rating:"8.8"}
+{name:"Interstellar",img:"interstellar.jpg",rating:"8.7"},
+{name:"Avatar",img:"avatar.jpg",rating:"7.9"},
+{name:"Inception",img:"inception.jpg",rating:"8.8"}
 ],
 
 Horror:[
-{name:"Conjuring",img:"images/conjuring.jpg",rating:"7.5"},
-{name:"Nun",img:"images/nun.jpg",rating:"5.3"},
-{name:"Annabelle",img:"images/annabelle.jpg",rating:"5.4"}
+{name:"Conjuring",img:"conjuring.jpg",rating:"7.5"},
+{name:"Nun",img:"nun.jpg",rating:"5.3"},
+{name:"Annabelle",img:"annabelle.jpg",rating:"5.4"}
 ],
 
 Thriller:[
-{name:"Shutter Island",img:"images/shutterisland.jpg",rating:"8.2"},
-{name:"Gone Girl",img:"images/gonegirl.jpg",rating:"8.1"},
-{name:"Joker",img:"images/joker.jpg",rating:"8.4"}
+{name:"Shutter Island",img:"shutterisland.jpg",rating:"8.2"},
+{name:"Gone Girl",img:"gonegirl.jpg",rating:"8.1"},
+{name:"Joker",img:"joker.jpg",rating:"8.4"}
 ],
 
 Adventure:[
-{name:"Pirates of Caribbean",img:"images/pirates.jpg",rating:"8.1"},
-{name:"Harry Potter",img:"images/harrypotter.jpg",rating:"7.9"},
-{name:"Uncharted",img:"images/uncharted.jpg",rating:"6.3"}
+{name:"Pirates of Caribbean",img:"pirates.jpg",rating:"8.1"},
+{name:"Harry Potter",img:"harrypotter.jpg",rating:"7.9"},
+{name:"Uncharted",img:"uncharted.jpg",rating:"6.3"}
 ]
 
 };
