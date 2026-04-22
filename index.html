@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CineMatch AI Recommender</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+    <header>
+        <h1>CineMatch AI</h1>
+        <p>Smart movie recommendations based on your taste</p>
+    </header>
+
+    <section class="panel">
+
+        <h2>Select Genres</h2>
+
+        <div class="genres">
+            <label><input type="checkbox" value="Action"> Action</label>
+            <label><input type="checkbox" value="Comedy"> Comedy</label>
+            <label><input type="checkbox" value="Romance"> Romance</label>
+            <label><input type="checkbox" value="Sci-Fi"> Sci-Fi</label>
+            <label><input type="checkbox" value="Horror"> Horror</label>
+            <label><input type="checkbox" value="Thriller"> Thriller</label>
+            <label><input type="checkbox" value="Adventure"> Adventure</label>
+        </div>
+
+        <button onclick="recommendMovies()">Get Recommendations</button>
+
+    </section>
+
+    <section id="result" class="movies-grid"></section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
