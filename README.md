@@ -44,7 +44,7 @@ cinematch-ai
 This project can be deployed easily using:
 * Netlify
 
-# live : cinematch-ai-project.netlify.app
+# live : https://app.netlify.com/projects/cinematch-ai-project/overview
 ##  Future Improvements
 
 * Search movies by name
